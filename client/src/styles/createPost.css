@@ -1,0 +1,35 @@
+.create-post-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.create-post-form input,
+.create-post-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.create-post-form button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.create-post-form button:hover {
+  background-color: #218838;
+}
+.success {
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}

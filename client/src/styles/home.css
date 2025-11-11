@@ -1,0 +1,73 @@
+/* Hero Section */
+.hero-section {
+  background-image: url('https://images.unsplash.com/photo-1507652955-f3dcef5a3be5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NDQzOTIyN3x8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=500'); /* Example image */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(241, 231, 231);
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-buttons .hero-btn {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons .hero-btn:hover {
+  background-color: #ff4757;
+}
+
+/* Posts Section */
+.posts-list {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.post-card:hover {
+  transform: scale(1.02);
+}
+
+.read-more-btn {
+  padding: 8px 15px;
+  background-color: #1e90ff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.read-more-btn:hover {
+  background-color: #0d6efd;
+}
+/* Responsive Design */ 

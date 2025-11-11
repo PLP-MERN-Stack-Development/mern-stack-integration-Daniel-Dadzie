@@ -1,0 +1,49 @@
+.navbar {
+  background: #1e1e2f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar-logo a {
+  color: #00bcd4;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.2rem;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #00bcd4;
+}
+
+.navbar-user {
+  margin-left: 1.2rem;
+  font-weight: bold;
+  color: #00e676;
+}
+
+.logout-btn {
+  margin-left: 1rem;
+  background: #e91e63;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.logout-btn:hover {
+  background: #c2185b;
+}
+/* --- END OF styles/navbar.css --- */
